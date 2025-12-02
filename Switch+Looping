@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int alat;
+    int menit;
+    int tarif = 0;
+
+    cout << "Pilih alat (1-4): ";
+    cin >> alat;
+
+    cout << "Durasi pemakaian (menit): ";
+    cin >> menit;
+
+    switch(alat) {
+        case 1: tarif = 5000; break;
+        case 2: tarif = 10000; break;
+        case 3: tarif = 8000; break;
+        case 4: tarif = 7000; break;
+        default:
+            cout << "Pilihan tidak valid!\n";
+            return 0;
+    }
+
+    int total = 0;
+    int interval = menit / 15;
+
+    for (int i = 0; i < interval; i++) {
+        total += tarif;
+    }
+
+    cout << "Total biaya sewa: Rp " << total << endl;
+
+    return 0;
+}
