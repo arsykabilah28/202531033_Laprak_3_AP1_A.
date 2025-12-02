@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int umur;
+    cout << "Masukkan umur peserta: ";
+    cin >> umur;
+
+    if (umur < 10) {
+        cout << "Hanya Boleh Menggunakan: Starter Kit\n";
+    } else {
+        if (umur <= 15) {
+            cout << "Sudah Boleh Menggunakan Peralatan: Basic Gear\n";
+        } else {
+            if (umur <= 20) {
+                cout << "Boleh Menggunakan Peralatan: Pro Gear\n";
+            } else {
+                cout << "Boleh Menggunakan Peralatan: Expert Gear\n";
+            }
+        }
+    }
+
+    return 0;
+}
