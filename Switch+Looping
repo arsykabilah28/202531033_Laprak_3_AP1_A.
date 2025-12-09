@@ -5,7 +5,8 @@ int main() {
     int alat;
     int menit;
     int tarif = 0;
-
+    
+	cout << " ==== SWITCH + LOOPING GYM ==== \n";
     cout << "Pilih alat (1-4): ";
     cin >> alat;
 
