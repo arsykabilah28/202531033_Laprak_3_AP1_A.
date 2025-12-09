@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     int kecepatan;
+    cout << " ==== IF - ELSE DRONE ==== \n";
     cout << "Masukkan kecepatan drone (km/jam): ";
     cin >> kecepatan;
 
