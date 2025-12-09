@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     int umur;
+    cout << " ==== NESTED - IF PERALATAN ==== \n";
     cout << "Masukkan umur peserta: ";
     cin >> umur;
 
