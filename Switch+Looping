@@ -20,7 +20,6 @@ int main() {
         case 4: tarif = 7000; break;
         default:
             cout << "Pilihan tidak valid!\n";
-            return 0;
     }
 
     int total = 0;
